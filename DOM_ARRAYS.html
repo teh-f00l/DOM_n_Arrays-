@@ -1,0 +1,28 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script>
+    
+    var fruits = ['apple','orange','kiwi'];
+
+function addAFruit(){
+    var fruit = document.getElementById('fruit').value.toLowerCase();
+    fruits.push('fruit');
+    fruits.sort();
+    document.getElementById('showMe!').innerHTML = fruits.join(' with ');
+}
+</script>
+</head>
+<body>
+        <h3 id= "showMe!"></h3>
+        <input type="text" placeholder="fav_fruits?" id="fruit">
+        <input type="button" value="fruits" onclick="addAFruit()">
+    
+    
+</body>
+</html>
